@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="c:customRefresh" action="{!c.handleCustomRefresh}"/>
+
+    <aura:method name="methodRefresh" action="{!c.methodRefresh}"> 
+        <aura:attribute name="toRefresh" type="Boolean" default="false"  /> 
+    </aura:method>
+
+    <lightning:button label="ChildFireRefreshView" onclick="{!c.shootRefresh}"/>
+
+</aura:component>

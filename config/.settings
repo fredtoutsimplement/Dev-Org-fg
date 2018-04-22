@@ -1,0 +1,21 @@
+{
+    "projectName": "Dev Org Fredericgeof",
+    "username": "fredericgeof@gmail.com",
+    "id": "360f8f70-32bc-11e8-a1d8-fd40421bf8d1",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://fredg-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\Fred\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "CustomApplication",
+        "CustomApplicationComponent",
+        "FlexiPage",
+        "StaticResource"
+    ]
+}

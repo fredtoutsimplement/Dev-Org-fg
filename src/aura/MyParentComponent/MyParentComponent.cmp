@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:refreshView" action="{!c.doRefresh}"/>
+    
+    <c:MyChildComponent aura:id="MyChildComponent"/>
+    <lightning:button label="ParentFireRefreshViewEvent" onclick="{!c.shootRefresh}"/>
+    <lightning:button label="ParentFireRefreshViewMethod" onclick="{!c.methodshootRefresh}"/>
+
+    
+</aura:component>
