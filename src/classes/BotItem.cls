@@ -5,6 +5,8 @@ public class BotItem {
     
     public BotItem(String name) {
         this.name = name;
+        //new comment 1
+        //new comment 2
     }
     
     public BotItem(String name, string linkURL) {
