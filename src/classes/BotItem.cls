@@ -7,6 +7,7 @@ public class BotItem {
         this.name = name;
         //new comment 1 & 1 & 1
         //new comment 2 & 3 & 4
+        //new comment 2 & 3 & 4 5
 
     }
     
